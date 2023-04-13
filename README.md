@@ -4,7 +4,7 @@
 
 ---
 
-# 🌐 TorMux 🌐
+# TorMux 
 
 TorMux es una herramienta que te instala y configura todo lo necesario para la creación de una VPN desde termux.
 
