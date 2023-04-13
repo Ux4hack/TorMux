@@ -1,4 +1,4 @@
-#!/bin/bash
+# !/bin/bash
 #
 # =================[TorMux]===================
 # Versión: 1
@@ -102,10 +102,10 @@ echo -e ${R}"       ╭───────────────────
        │ ${W}Dependencias instaladas ${R}│
        ╰─────────────────────────╯"
        echo
-       echo -e "${GR} [${R}*${GR}]${W} Github: ${GR}@Ux4hack"
+       echo -e "${GR} [${R}*${GR}]${W} Github: ${GR}Ux4hack"
        echo -e "${GR} [${R}*${GR}]${W} Telegram: ${GR}@Ux4hack"
        echo -e "${GR} [${R}*${GR}]${W} TikTok: ${GR}@Ux4hack"
-
        echo
 
-# Ux4hack 10/04/23
+
+# Ux4hack 12/04/23
