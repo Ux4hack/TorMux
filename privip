@@ -1,0 +1,13 @@
+#!/bin/bash
+R='\033[1;31m'
+W='\033[0m'
+one=$(ifconfig 2>&1 | grep -i "inet 192.168" | cut -d " " -f 10)
+echo -e ${R}"╭───────────────╮
+│ ${W}Tu IP privada${R} │
+╰───────────────╯"${W}
+echo -ne " ${one}"
+if [ -z "${one}" ]; then
+echo -e "${R}No conectado a una red wifi!"
+echo
+fi
+

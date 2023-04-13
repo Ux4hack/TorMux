@@ -1,0 +1,43 @@
+#!/bin/bash
+R='\033[1;31m'
+B='\033[1;34m'
+M='\033[1;35m'
+C='\033[1;36m'
+W='\033[0m'
+GR='\e[90m'
+LRED="\e[101m"
+DGRAY="\e[100m"
+clear
+echo -e ${GR}"                ${W}-[${GR}Ux4hack${W}]- ${GR}
+${GR}        ████████╗░█████╗░██████╗░
+        ╚══██╔══╝██╔══██╗██╔══██╗
+         ░░██║░░░██║░░██║██████╔╝
+        ░░░██║░░░██║░░██║██╔══██╗
+        ░░░██║░░░╚█████╔╝██║░░██║
+${R}           ╚═╝    ╚════╝ ╚═╝  ╚═╝${W} [${GR}Mux${W}]"
+echo -e "          ${W}${LRED}::The Onion Router::"${W}
+echo -e "    ${W}${DGRAY}.:Anonimíza tus procesos hacking:."${W}
+echo -e ${R}"           ╭─────────────────╮
+           │  ${W}MENU DE AYUDA${R}  │
+           ╰─────────────────╯${W}"
+echo -e ${R}"╭─────╮
+│ ${W}tor${R} │ ${W}Inicia la conexión con TOR${R}
+╰─────╯"
+echo -e ${R}"╭───────╮
+│ ${W}iptor${R} │ ${W}Averigua la IP brindada por TOR${R}
+╰───────╯"
+echo -e ${R}"╭──────╮
+│ ${W}ipch${R} │ ${W}Cambia la IP brindada por TOR${R}
+╰──────╯"
+echo -e ${R}"╭───────╮
+│ ${W}pubip${R} │ ${W}Averigua tu IP pública ${R}
+╰───────╯"
+echo -e ${R}"╭────────╮
+│ ${W}privip${R} │ ${W}Averigua tu IP privada ${R}
+╰────────╯"
+echo -e ${R}"╭────────╮
+│ ${W}infoip${R} │ ${W}Extrae información de una  IP ${R}
+╰────────╯"
+echo -e ${R}"╭──────────╮
+│ ${W}infomyip${R} │ ${W}Extrae información de tu IP ${R}
+╰──────────╯"

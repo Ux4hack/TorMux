@@ -1,0 +1,10 @@
+#!/bin/bash
+R='\033[1;31m'
+W='\033[0m'
+echo -ne ${R}"╭──────────────────────╮
+│ ${W}Informacion de mi IP${R} │
+╰──────────────────────╯${W}"
+echo
+curl -s http://ip-api.com/
+	echo
+        exit

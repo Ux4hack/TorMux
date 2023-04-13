@@ -1,0 +1,11 @@
+#!/bin/bash
+R='\033[1;31m'
+W='\033[0m'
+
+echo -e "${R}╭───────────────────────╮"
+echo -e "${R}|${W}Escribe la dirección IP${R}|"
+echo -e "|───────────────────────╯"
+#echo -e "|"
+echo -ne "╰──${W}❯${R}❯${W} "
+read -r IP
+curl -s http://ip-api.com/$IP

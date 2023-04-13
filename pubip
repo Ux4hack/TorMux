@@ -1,0 +1,9 @@
+#!/bin/bash
+R='\033[1;31m'
+W='\033[0m'
+echo -e ${R}"╭───────────────╮
+│ ${W}Tu IP pública${R} │
+╰───────────────╯"${W}
+echo -ne " ";curl ifconfig.so
+echo
+echo

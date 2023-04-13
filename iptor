@@ -1,0 +1,13 @@
+#!/bin/bash
+R='\033[1;31m'
+W='\033[0m'
+checktor=$(curl --socks5-hostname localhost:9050 -s https://www.google.com > /dev/null; echo $?)
+
+if [[ "${checktor}" -gt "0" ]]; then
+echo -e ${R}"╭────────────────────────────────╮
+│ ${W}Primero debes conectarte a TOR${R} │
+╰────────────────────────────────╯"
+    exit
+else
+    proxychains4 curl ifconfig.so
+fi
