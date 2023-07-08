@@ -11,7 +11,7 @@ TorMux es una herramienta que te instala y configura todo lo necesario para la c
 # Requerimientos:
 * git
 * Internet
-# Instalación:
+# Instalación Termux:
 
 * `apt update && apt upgrade -y`
 * `yes|pkg install git`
@@ -19,6 +19,17 @@ TorMux es una herramienta que te instala y configura todo lo necesario para la c
 * `cd TorMux`
 * `chmod +x *`
 * `bash TorMux`
+
+# ¡Ahora Disponible en!:
+* `Kali Linux`
+* `Parrot OS`
+
+## Instalacion:
+* sudo apt update && sudo apt upgrade -y
+* sudo apt-get install git
+* git clone https://github.com/Ux4hack/TorMux
+* cd TorMux
+* ./TorMux
 
 Al ejecutar el comando:
 
