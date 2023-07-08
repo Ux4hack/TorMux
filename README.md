@@ -6,7 +6,7 @@
 
 # TorMux 
 
-TorMux es una herramienta que te instala y configura todo lo necesario para la creación de una VPN desde termux.
+TorMux es una herramienta que te instala y configura todo lo necesario para la creación de una VPN poderosa (tor) desde la terminal.
 
 # Requerimientos:
 * git
